@@ -1,5 +1,6 @@
 [flake8]
 max-line-length = 100
+select = "E303, W293, W292, E305, E231, E302"
 exclude =
     .tox,
     __pycache__,
@@ -9,3 +10,6 @@ exclude =
     .venv/*,
     reports/*,
     dist/*,
+    agent/*,
+    code,
+    agbenchmark/challenges/*
